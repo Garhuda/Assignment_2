@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #222;
+            margin: 0;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .faculty-page {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .faculty-image {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .classes {
+            margin-top: 30px;
+        }
+
+        .classes ul {
+            padding-left: 25px;
+            line-height: 1.8;
+        }
+
+        .course-button {
+            display: inline-block;
+            background-color: #337ab7;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .course-button:hover {
+            background-color: #286090;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="faculty-page">
+
+        <img src="faculty.jpg" alt="Faculty member portrait"
+             class="faculty-image">
+
+        <h1>John Smith</h1>
+
+        <p>Faculty</p>
+
+        <p>Clearwater Campus</p>
+
+        <p>College of Computer and Information Technology</p>
+
+        <p>Office: ES 213B</p>
+
+        <p>
+            Email:
+            <a href="mailto:jsmith@example.com">jsmith@example.com</a>
+        </p>
+
+        <p>Phone: (727) 555-0123</p>
+
+        <p>
+            <strong>Office Schedule:</strong>
+            Monday: 9:00 a.m. - 1:00 p.m.<br>
+            Tuesday and Wednesday: 10:00 a.m. - 1:00 p.m.
+        </p>
+
+        <a href="#classes" class="course-button">Course Info</a>
+
+        <div class="classes" id="classes">
+            <h3>Classes Taught</h3>
+
+            <ul>
+                <li>Introduction to Programming</li>
+                <li>Object-Oriented Programming</li>
+                <li>Database Management</li>
+                <li>Web Development</li>
+                <li>Software Engineering</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
